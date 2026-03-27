@@ -4,11 +4,7 @@
 To write a C program to delete first element in an array.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1.Start. 2. Define a variables i,j,a. 3. Read the value using scanf. 4. Ask the user to make an input 5. Print out the answer 6. End.  
 
 ## Program:
 ```
@@ -19,7 +15,23 @@ RegisterNumber:
 */
 ```
 
+```
+#include<stdio.h> 
+int main()
+{
+int i,n,a[10];
+scanf("%d",&n); 
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+for(i=1;i<n;i++) 
+printf("%d ",a[i]);
+}
+```
+
 ## Output:
+<img width="780" height="191" alt="image" src="https://github.com/user-attachments/assets/c11c226a-52ca-4b44-8162-0fe3cc4e2f38" />
 
 
 
