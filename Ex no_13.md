@@ -49,30 +49,7 @@ return 0;
 ```
 
 ## output:
-#include<stdio.h> 
-int main()
-{
-int i,j,n,a[10][10];
-scanf("%d",&n); 
-for(i=0;i<n;i++)
-{
-for(j=0;j<n;j++)
-{
-scanf("%d",&a[i][j]);
-}
-}for(i=0;i<n;i++)
-{
-for(j=0;j<=n;j++)
-{
-if(a[i][j]%2==1)
-{
-printf("a[%d][%d] is %d \n",i,j,a[i][j]);
-}
-}
-printf("\n");
-}
-return 0;
-}
+<img width="796" height="572" alt="image" src="https://github.com/user-attachments/assets/4539d964-1fd8-4b1d-8ac9-15018cdcc127" />
 
 
 ## Result:
